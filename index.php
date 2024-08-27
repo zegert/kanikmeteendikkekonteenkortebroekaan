@@ -44,7 +44,7 @@ $.ajax({
     success: function(result, status, xhr) {
 
 
-        if (result.main.feels_like > 20 && 
+        if (result.main.feels_like > 25 && 
             result.wind.speed < 10 && 
             result.wind.gust < 20 && 
             result.visibility > 8000) {
